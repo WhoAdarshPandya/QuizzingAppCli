@@ -1,7 +1,7 @@
 // @mark - 1 
 
-// @requiring needed dependencies
-const readlineSync = require('readline-sync');
-const chalk = require('chalk')
+const {initGame} = require('./game')
 
-console.log(chalk.bgBlackBright.green('hello random user'));
+
+// initialize & start the game
+initGame();
